@@ -31,6 +31,7 @@
 
 ## 📦 项目结构
 
+```shell
 KnowledgeBaseApp/
 ├── main.py                 # 程序入口
 ├── ui/                     # 界面代码
@@ -47,6 +48,7 @@ KnowledgeBaseApp/
 │   ├── email_manager.py    # 邮件服务
 │   └── export_pdf.py      # PDF导出
 └── resources/              # 资源文件
+```
 
 ## 🚀 快速开始
 
@@ -108,3 +110,5 @@ MIT License © 2023 xurunbo.top
 ---
 
 > "知识就是力量" — 弗朗西斯·培根
+
+dist已包含已打包好的exe。直接运行！
