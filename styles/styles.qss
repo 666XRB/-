@@ -1,0 +1,123 @@
+/* 微软Fluent Design清新风格 */
+QMainWindow {
+    background-color: #faf9f8;
+    font-family: "Segoe UI", "Microsoft YaHei";
+}
+
+/* 基础控件样式 */
+QLabel, QLineEdit, QTextEdit, QListWidget {
+    color: #000000; /* 纯黑色文字 */
+    background-color: #ffffff; /* 白色背景 */
+    font-size: 14px;
+}
+
+/* 卡片容器 */
+QWidget#centralWidget {
+    background-color: transparent;
+    padding: 12px;
+}
+
+/* 输入框样式 */
+QLineEdit, QTextEdit {
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    padding: 8px;
+    selection-background-color: #0078d7;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border: 1px solid #0078d7;
+}
+
+/* 按钮样式 */
+QPushButton {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #106ebe;
+}
+
+QPushButton:pressed {
+    background-color: #005a9e;
+}
+
+/* 卡片列表样式 */
+QListWidget {
+    background-color: white;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+}
+
+QListWidget::item {
+    background: white;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 12px;
+}
+
+/* 修改卡片列表选中项样式 */
+QListWidget::item:selected {
+    background-color: #e5f1fb;
+    border-left: 4px solid #0078d7;
+    color: black;
+}
+
+/* 保持hover效果 */
+QListWidget::item:hover {
+    background-color: #e5f1fb;
+    border-left: 2px solid #0078d7;
+}
+
+/* 添加点击动画效果 */
+QListWidget::item:pressed {
+    background-color: #c7e0f4;
+    border-left: 4px solid #005a9e;
+}
+
+/* 卡片内容样式 */
+.card-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.card-content {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 6px 0;
+}
+
+/* 对话框样式 */
+QDialog {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+/* 项目标题样式 */
+.project-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0078d7;
+    border-bottom: 2px solid #0078d7;
+    margin-bottom: 16px;
+    padding: 8px 0;
+    qproperty-alignment: AlignCenter;
+}
+
+/* 滚动条样式 */
+QScrollBar:vertical {
+    background: #f5f5f5;
+    width: 10px;
+}
+
+QScrollBar::handle:vertical {
+    background: #d6d6d6;
+    min-height: 20px;
+    border-radius: 4px;
+}
